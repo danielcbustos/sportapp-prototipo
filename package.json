@@ -2,6 +2,7 @@
   "name": "sportapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://danielcbustos.github.io/sportapp-prototipo",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.11.4",
@@ -33,12 +34,13 @@
     "react-toastify": "^10.0.4",
     "styled-components": "^6.1.8",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^8.19.1",
     "sweetalert2-react-content": "^5.0.7",
     "swiper": "^8.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -66,5 +68,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
