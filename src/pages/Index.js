@@ -49,7 +49,6 @@ import CarritoCompras from "./CarritoCompras";
 
 import Pagar from "./Pagar";
 
-
 function Index() {
   var baseName = "/";
   const scrollTopBtn = useRef(null);
@@ -72,7 +71,7 @@ function Index() {
         <Route path="/appointment" exact element={<Appointment />} />
         <Route path="/Register" exact element={<Register />} />
         <Route path="/Login" exact element={<Login />} />
-       
+
         <Route element={<MainLayout />}>
           <Route path="/" exact element={<Home />} />
           <Route path="/about-us" exact element={<AboutUs />} />
@@ -83,8 +82,12 @@ function Index() {
           <Route path="/portfolio" exact element={<Portfolio />} />
           <Route path="/user-profile" exact element={<UserProfile />} />
           <Route path="/Recomendacion" exact element={<Recomendacion />} />
-          <Route path="/edicion-recomendacion" exact element={<EdicionRecomendacion />} />
-         
+          <Route
+            path="/edicion-recomendacion"
+            exact
+            element={<EdicionRecomendacion />}
+          />
+
           <Route
             path="/asociacion-terceros"
             exact
@@ -95,16 +98,40 @@ function Index() {
             exact
             element={<PortfolioDetails />}
           />
-            <Route path="/productos-servicios" exact element={<ServiciosProductos />} />
+          <Route
+            path="/productos-servicios"
+            exact
+            element={<ServiciosProductos />}
+          />
           <Route path="/services" exact element={<Services />} />
-          <Route path="/AdministrarSeguimiento" exact element={<AdministrarSeguimiento />} />
+          <Route
+            path="/AdministrarSeguimiento"
+            exact
+            element={<AdministrarSeguimiento />}
+          />
           <Route path="/services-details" exact element={<ServicesDetails />} />
-          <Route path="/services-details-table" exact element={<ServicesDetailsTable />} />
+          <Route
+            path="/services-details-table"
+            exact
+            element={<ServicesDetailsTable />}
+          />
           <Route path="/blog-grid" exact element={<BlogGrid />} />
           <Route path="/Recomendaciones" exact element={<Recomendaciones />} />
-          <Route path="/Recomendacion-Detail" exact element={<RecomendacionDetail />} />
-          <Route path='/recomendaciones-personales' exact element={<RecomendacionPlanDepor/>}/>
-          <Route path="/edicion-servicios-productos" exact element={<EdicionServiciosProductos />} />
+          <Route
+            path="/Recomendacion-Detail"
+            exact
+            element={<RecomendacionDetail />}
+          />
+          <Route
+            path="/recomendaciones-personales"
+            exact
+            element={<RecomendacionPlanDepor />}
+          />
+          <Route
+            path="/edicion-servicios-productos"
+            exact
+            element={<EdicionServiciosProductos />}
+          />
           <Route path="/carrito-compras" exact element={<CarritoCompras />} />
           <Route path="/pagar" exact element={<Pagar />} />
           <Route path="/coming-soon" exact element={<ComingSoon />} />
