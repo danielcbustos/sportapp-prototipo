@@ -16,30 +16,30 @@ import "./assets/css/style.css";
 import { Link } from "react-router-dom";
 
 function App() {
-  const toastId = React.useRef(null);
-  const myAlert = (e) => {
-    e.preventDefault();
-    alert("Go to recomedacion");
-  };
+  // const toastId = React.useRef(null);
+  // const myAlert = (e) => {
+  //   e.preventDefault();
+  //   alert("Go to recomedacion");
+  // };
 
-  const CloseButton = ({ closeToast }) => (
-    <span className=" ml-5 mt-2" onClick={myAlert}>
-      Ir
-    </span>
-  );
+  // const CloseButton = ({ closeToast }) => (
+  //   <span className=" ml-5 mt-2" onClick={myAlert}>
+  //     Ir
+  //   </span>
+  // );
 
   //toast.info(CustomToastWithLink);
-  const notify = () => {
-    toast.success("Tienes una nueva notificacion", {
-      closeButton: CloseButton,
-    });
-  };
-  notify();
+  // const notify = () => {
+  //   toast.success("Tienes una nueva notificacion", {
+  //     closeButton: CloseButton,
+  //   });
+  // };
+  // notify();
 
   return (
     <>
       <h1>esta vaina no sirve</h1>
-      <ToastContainer
+      {/* <ToastContainer
         position="bottom-center"
         autoClose={5000}
         hideProgressBar={false}
@@ -50,7 +50,7 @@ function App() {
         draggable
         pauseOnHover
         theme="dark"
-      ></ToastContainer>
+      ></ToastContainer> */}
     </>
   );
 }
