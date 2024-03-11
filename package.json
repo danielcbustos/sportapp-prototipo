@@ -44,8 +44,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "sass": "node-sass --watch src/assets/scss/main.scss src/assets/css/style.css --source-map src/assets/css/style.css.map"
+    "eject": "react-scripts eject"
+ 
   },
   "eslintConfig": {
     "extends": [
