@@ -7,12 +7,12 @@ import {
   toast,
   ToastOptions,
 } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import "react-toastify/dist/ReactToastify.css";
 
 //Css
-import "./assets/vendor/switcher/switcher.css";
-import "./assets/vendor/swiper/swiper-bundle.min.css";
-import "./assets/css/style.css";
+// import "./assets/vendor/switcher/switcher.css";
+// import "./assets/vendor/swiper/swiper-bundle.min.css";
+// import "./assets/css/style.css";
 import { Link } from "react-router-dom";
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
 
   return (
     <>
-      <h1>esta vaina no sirve</h1>
+      <Index />
       {/* <ToastContainer
         position="bottom-center"
         autoClose={5000}
