@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sportapp-prototipo/static/css/main.eb87eebf.css",
-    "main.js": "/sportapp-prototipo/static/js/main.f0f8acb9.js",
+    "main.js": "/sportapp-prototipo/static/js/main.77a9af1e.js",
     "static/media/aboutElisa2.png": "/sportapp-prototipo/static/media/aboutElisa2.94490fc1c679ad7d5f40.png",
     "static/media/avatar2.jpg": "/sportapp-prototipo/static/media/avatar2.fb0db3362a064f37f685.jpg",
     "static/media/aboutElisa3.png": "/sportapp-prototipo/static/media/aboutElisa3.8792b4530c37e6df0777.png",
@@ -90,10 +90,10 @@
     "static/media/bg-pricetable-1.svg": "/sportapp-prototipo/static/media/bg-pricetable-1.c7a5ff459c44b5cc0b02.svg",
     "static/media/circle-footer-1.svg": "/sportapp-prototipo/static/media/circle-footer-1.51e641b575d315db99b2444b93df476a.svg",
     "main.eb87eebf.css.map": "/sportapp-prototipo/static/css/main.eb87eebf.css.map",
-    "main.f0f8acb9.js.map": "/sportapp-prototipo/static/js/main.f0f8acb9.js.map"
+    "main.77a9af1e.js.map": "/sportapp-prototipo/static/js/main.77a9af1e.js.map"
   },
   "entrypoints": [
     "static/css/main.eb87eebf.css",
-    "static/js/main.f0f8acb9.js"
+    "static/js/main.77a9af1e.js"
   ]
 }
